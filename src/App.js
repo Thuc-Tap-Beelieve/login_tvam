@@ -10,7 +10,6 @@ import MobileOTP from './Pages/MobileOTP.jsx';
 import EmailLogin from './Pages/EmailLogin.jsx';
 import EmailOTP from './Pages/EmailOTP.jsx';
 import WeatherForecast from './Components/WeatherForecast/WeatherForecast.jsx';
-import SidebarMenu from './Components/SidebarMenu/SidebarMenu.jsx';
 import Layout from './Layout.jsx';
 
 ReactDOM.render(<WeatherForecast />, document.getElementById('root'));
