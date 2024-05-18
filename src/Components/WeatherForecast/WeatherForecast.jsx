@@ -6,7 +6,7 @@ import './WeatherForecast.css';
 const WeatherForecast = () => {
   const [weather, setWeather] = useState({ morning: null, noon: null, evening: null });
   const apiKey = 'fc15450ddc393035f877568ebc8a39c7';
-  const city = 1580578; // Replace with your city ID from OpenWeatherMap
+  const city = 1566083; // Replace with your city ID from OpenWeatherMap
   const [dayOfWeek, setDayOfWeek] = useState('');
   const [date, setDate] = useState('');
   const [location, setLocation] = useState('');
@@ -62,9 +62,9 @@ const WeatherForecast = () => {
 
   return (
     <div className="weather-container">
-      <div className="weather-item">
+      <div className="weather-date">
         <h2>{date.replace(/(\d{1})(?!\d)/g, '$1')}</h2>
-        <div className='dayofweek'>{dayOfWeek}</div>
+        <p>{dayOfWeek}</p>
       </div>
       <div className="weather-item">
         <h3>Sáng (9 AM)</h3>
