@@ -10,6 +10,7 @@ import MobileOTP from './Pages/MobileOTP.jsx';
 import EmailLogin from './Pages/EmailLogin.jsx';
 import EmailOTP from './Pages/EmailOTP.jsx';
 import WeatherForecast from './Components/WeatherForecast/WeatherForecast.jsx';
+import Register from './Pages/Register/Register.jsx';
 
 ReactDOM.render(<WeatherForecast />, document.getElementById('root'));
 
