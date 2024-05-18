@@ -243,10 +243,10 @@
 .Login-Button {    
    border: 1px solid;
    border-radius: 20px;
-   padding: 10px;
+   padding: 12px;
    width: 45%;
    margin-top: 4%;
-   margin-left: 27%;
+   margin-left: -1%;
    background-color: #37E93E;
    cursor: pointer;
    outline: none;
@@ -255,6 +255,22 @@
 .Login-Button:hover {    
     background-color: hwb(122 22% 19%);
 }
+
+.Login-Button-number:hover {    
+    background-color: hwb(122 22% 19%);
+}
+
+.Login-Button-number {    
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 27%;
+    background-color: #37E93E;
+    cursor: pointer;
+    outline: none;
+ }
 
 .Back-Button {   
     border: 1px solid;
@@ -295,4 +311,26 @@
 .password-title {    
     margin-right: 28%;
     margin-bottom: 0;
+}
+
+.form_login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register_form_text-register {
+font-size: 16px;
+font-weight: 500;
+margin: 10px 20px;
+}
+
+.register_form_register {
+color: #007bff;
+text-decoration: none;
+margin-left: 20px;
+}
+
+.register_form_register:hover {
+text-decoration: underline;
+color: aliceblue;
 }
