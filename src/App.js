@@ -25,7 +25,8 @@ function App() {
         <Route path='/MobileOTP' element={<MobileOTP/>}/>                 
         <Route path='/EmailLogin' element={<EmailLogin/>}/>
         <Route path='/EmailOTP' element={<EmailOTP/>}/>         
-        
+        <Route path='/Home' element={<Home/>}/>   
+        <Route path='/Register' element={<Register />}/>  
       </Routes>      
       </BrowserRouter>
     </div>
