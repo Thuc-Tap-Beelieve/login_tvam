@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  flex: none; /* Đảm bảo Header không co giãn */
+}
+
+.sidebar {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
