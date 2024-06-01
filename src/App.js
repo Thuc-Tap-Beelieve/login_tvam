@@ -16,6 +16,7 @@ import Register from './Pages/Register/Register.jsx';
 import Profile from './Pages/UserProfile/Profile.jsx';
 import ProductDetail from './Pages/Product/ProductDetail.jsx'
 import LoginSuccess from './Pages/Login/LoginSuccess';
+import Admin from './Pages/Admin/Admin.jsx';
 
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
@@ -29,13 +30,13 @@ function App() {
 
     <GoogleOAuthProvider clientId="1080539088484-27r7uupsmlpnaptei93rhi487sgr8f0n.apps.googleusercontent.com">
     <div className=''>
-
       <BrowserRouter>
         <AuthProvider>
-          <Navbar />   
+          <Navbar />           
           {/* <WeatherForecast /> */}
           <Routes>
             <Route path='/' element={<Home/>}/>   
+            {/* <Route path='/admin' element={<Admin />}/>    */}
             <Route path='/login' element={<Login/>}/>            
             <Route path="/login-success/:userID" element={<LoginSuccess />} />
             <Route path='/MobileLogin' element={<MobileLogin/>}/>

@@ -61,7 +61,7 @@ const Navbar = () => {
                         {/* <span className="dropdown-item">Welcome, {user}</span> */}                                      
                         <Link to="/profile" className="dropdown-item">Trang cá nhân</Link>                            
                         {/* <li className="popper-item">Trang cá nhân</li>                         */}
-                        <li onClick={logout} className="popper-item">Đăng xuất</li>                        
+                        <li onClick={logout} className="dropdown-item">Đăng xuất</li>                        
                         </>
                     ) : ( 
                         <> 

@@ -14,7 +14,7 @@ const Login = () => {
     const login = useGoogleLogin({
         onSuccess: async (tokenResponse) => {
           try {
-            const res = await axios.get(`http://localhost:5000/api/v1/auth/google/callback`, {
+            const res = await axios.get(`http://localhost:5000/api/v1/auth/google/`, {
               headers: {
                 Authorization: `Bearer ${tokenResponse.accessToken}`,
               },
